@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Remix specific artifacts
+artifacts/
+cache/
+.deps/
+
+# Build files, dist files, and other temporary files
+build/
+dist/
+
+# Coverage reports from testing
+coverage/
+
+# Remixd specific files
+.remix.workspace
+
+# Environment files containing sensitive information
+.env
+.env.local
+
+# MacOS specific files
+.DS_Store
+
+# Log files
+*.log
+
+# Editor temporary files
+*.swp
+*.swo
+*~
